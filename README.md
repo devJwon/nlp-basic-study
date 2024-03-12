@@ -11,3 +11,6 @@ https://www.inflearn.com/course/%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9-%ED%8C%8C%E
 2. 초대가 오면 수락한다.
 3. 우측 상단의 파일 추가 기능을 이용해서 매주의 과제를 업로드한다. (git을 쓸 줄 아시면 commit&push도 환영!)
 
+## 파일 제출 규칙
+
+\[이름\]파일명.py
