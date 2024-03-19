@@ -10,7 +10,6 @@ Punctuation and whitespace should be outputted unchanged. You’re welcome, but 
 as an argument to input.
 
 '''
-
 sentence = input("please insert a sentence of your liking:")
 
 sentence = sentence.lower()
