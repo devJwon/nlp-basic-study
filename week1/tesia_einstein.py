@@ -15,7 +15,7 @@ In a file called einstein.py, implement a program in Python that prompts the use
 print("to calculate the amount of energy, please insert mass in kilograms:"),
 mass = int(input())
 
-e= mass*300000000
+e= mass*300000000**2
 print("The energy is equal to",e,"Joules")
 
       

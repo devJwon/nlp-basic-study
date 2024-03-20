@@ -9,4 +9,4 @@ In a file called indoor.py, implement a program in Python that prompts the user 
 '''
 
 inputs = input("Your Voice: ")
-print("Your Indoor Voice would be: "+inputs.lower())
+print("Your Indoor Voice would be: "+ inputs.lower())

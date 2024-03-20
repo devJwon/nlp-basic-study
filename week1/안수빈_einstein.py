@@ -7,10 +7,12 @@ e=mc^2, wherein e represents energy (measured in Joules), m represents mass (mea
 In a file called einstein.py, implement a program in Python that prompts the user for mass as an integer (in kilograms) and then outputs the equivalent number of Joules as an integer. Assume that the user will input an integer.
 '''
 
-m = int(input('mass: '))
+mass_input = int(input("질량을 킬로그램 단위로 입력해 주세요: "))
 
-c = 300000000
+light = 300000000
+energy_1 = mass_input * (light ** 2)
+energy_2 = mass_input * light ** 2
 
-e = m * (c**2)
 
-print(f'energy: {e} 입니다')
+print(str(mass_input) + "kg의 에너지는 " + str(energy_1) + "줄입니다.")
+print(str(mass_input) + "kg의 에너지는 " + str(energy_2) + "줄입니다.")ㅏ
