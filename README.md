@@ -13,4 +13,4 @@ https://www.inflearn.com/course/%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9-%ED%8C%8C%E
 
 ## 파일 제출 규칙
 
-\[이름\]파일명.py
+이름_파일명.py
