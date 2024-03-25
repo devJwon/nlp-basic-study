@@ -20,5 +20,4 @@ def convert(string):
         return string_converted
 
     else:
-        string
         return string
