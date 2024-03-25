@@ -1,4 +1,4 @@
-# plain code
+'''plain code
 expression = input('emoji converter: ')
 if ':)' or ':(' in expression:
     expression = expression.replace(':)','🙂')
@@ -7,6 +7,7 @@ if ':)' or ':(' in expression:
 
 else:
     print(expression)
+'''
 
 # main function
 def main():
