@@ -1,6 +1,6 @@
 def main() :
     emoji = convert_emoji(input("You can use ':)' or ':(' to express your feelings in"))
-    print (emoji)
+    print(emoji)
 
 def convert_emoji(d) :
     if d == ":)" :

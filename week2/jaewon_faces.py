@@ -16,5 +16,5 @@ def main():
     converted_text = convert(user_input)
     print(converted_text)
 
-# if __name__ == "__main__":
-main()  
+if __name__ == "__main__":
+    main()  
