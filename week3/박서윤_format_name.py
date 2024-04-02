@@ -22,5 +22,6 @@ while True:
         new_name = first+" "+last
 
         print(f"Welcome Aboard, {new_name}!")
+        break
     else:
         print("Error: only first and last name please")
