@@ -19,6 +19,7 @@ In deep.py, implement a program that prompts the user for the answer to the Grea
 '''
 
 prompts = input("The answer to the Great Question of Life, the Universe and Everything is...: ")
+prompts = prompts.lower()
 if prompts == '42' or prompts == 'forty-two' or prompts == 'forty two':
 	print("Yes")
 else:
@@ -29,6 +30,7 @@ else:
 '''
 def main():
     inputs = input("The answer to the Great Question of Life, the Universe and Everything is...: ")
+    inputs = inputs.lower()
     print(deep_thought(inputs))
 
 def deep_thought(prompts):
