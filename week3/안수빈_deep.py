@@ -25,3 +25,4 @@ if question.strip().lower() == "42" or question.strip().lower() == "forty-two" o
     
 else:
     print("아니오")
+

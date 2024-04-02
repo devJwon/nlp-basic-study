@@ -53,5 +53,3 @@ def extensions(prmts):
 		return "zip file/"+suffixs
 	else:
 		return "application/octet-stream"
-
-main()

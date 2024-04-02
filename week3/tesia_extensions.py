@@ -25,13 +25,13 @@ If the file’s name ends with some other suffix or has no suffix at all, output
 '''
 
 def extensions():
-    ext = {".gif": "image/gif",
-           ".jpg": "image/jpeg",
-           ".jpeg": "image.jpeg", 
-           ".png": "image/.png", 
-           ".pdf": "application/.pdf", 
-           ".txt": "text/plain", 
-           ".zip": "application/zip"}
+    ext = {"gif": "image/gif",
+           "jpg": "image/jpeg",
+           "jpeg": "image.jpeg", 
+           "png": "image/.png", 
+           "pdf": "application/.pdf", 
+           "txt": "text/plain", 
+           "zip": "application/zip"}
     return ext
     
 def main():
@@ -41,8 +41,8 @@ def main():
 
     file_ext = file_name.lower().split(".")[-1]
 
-    if "." + file_ext in ext: 
-        file = ext["." + file_ext]
+    if file_ext in ext: 
+        file = ext[file_ext]
         print("Media type:", file)
     else:
         print("unavailable")
