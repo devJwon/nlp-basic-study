@@ -4,7 +4,6 @@
 
 from random import *
 
-
 list = []
 # users = list(range(1, 21))
 
