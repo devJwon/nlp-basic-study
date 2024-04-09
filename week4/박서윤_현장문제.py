@@ -13,8 +13,9 @@ def main():
 
 def convert(time):
     hr, min = time.split(":")
+    hr = float(hr)
     min_ratio = float(min)/60
-    new_time = hr+"."+str(min_ratio)
+    new_time = hr + min_ratio
 
     if float(new_time) >= 7.0 and float(new_time) < 8.0:
         print("아침")
