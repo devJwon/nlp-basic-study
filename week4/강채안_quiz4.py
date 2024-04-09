@@ -4,12 +4,13 @@
 
 from random import *
 
-list = []
+list = [] 
 # users = list(range(1, 21))
 
 for i in range(1, 21):
     list.append(i)
-    shuffle(list)
+
+shuffle(list)
 
 luckys = sample(list, 4)
 

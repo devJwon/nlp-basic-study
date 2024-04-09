@@ -7,12 +7,21 @@ Structure your program per the below, wherein convert is a function (that can be
 
 """
 def main():
-    ...
-
+    time = convert(input())
+    if 7 <= time <= 8:
+        print('breakfast')
+    elif 12 <= time <= 13:
+        print('lunch')
+    elif 18 <= time <= 19:
+        print('dinner')
+        
 
 def convert(time):
-    ...
+    hour, minute = time.split(':')
+    minute = int(minute) / 60
+    hour = int(hour)
 
+    return hour + minute
 
 if __name__ == "__main__":
     main()
