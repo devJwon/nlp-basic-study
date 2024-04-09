@@ -26,3 +26,25 @@
 
 이 도전은 split(), capitalize()와 같은 파이썬의 문자열 메소드와 조건문을 사용하여 다양한 입력 사례를 처리하는 지식이 필요합니다. 문자열 조작과 사용자 입력 검증을 연습하기에 훌륭한 연습문제입니다.
 '''
+# 풀이 1
+name = input().split()
+
+new_name = []
+for word in name:
+    new_name.append(word[0].upper()+word[1:].lower())
+
+print(' '.join(new_name))
+
+# 풀이 2
+name = input().split()
+
+new_name = []
+for word in name:
+    new_name.append(word.capitalize())
+
+print(' '.join(new_name))
+
+# 풀이 3
+print(input().title())
+
+
