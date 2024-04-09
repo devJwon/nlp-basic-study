@@ -9,22 +9,20 @@ Structure your program per the below, wherein convert is a function (that can be
 def main():
     times = input("what time is it?: ")
     convert(times)
-
+    if  7.0<= new_time <= 8.0:
+        print("아침")
+    elif 12.0<= new_time <= 13.0:
+        print("점심")
+    elif 18.0<= new_time <= 19.0:
+        print("저녁")
+    else:
+        print("not 밥때")
 
 def convert(time):
     hr, min = time.split(":")
     hr = float(hr)
     min_ratio = float(min)/60
     new_time = hr + min_ratio
-
-    if float(new_time) >= 7.0 and float(new_time) < 8.0:
-        print("아침")
-    elif float(new_time) >= 12.0 and float(new_time) < 13.0:
-        print("점심")
-    elif float(new_time) >= 18.0 and float(new_time) < 19.0:
-        print("저녁")
-    else:
-        print("not 밥때")
 
 
 if __name__ == "__main__":
