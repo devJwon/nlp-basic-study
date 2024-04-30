@@ -6,8 +6,8 @@
 from random import *
 customers = range(1,21)
 customers1 = list(customers) #why does it not accept set?
-shuffle(customers)
-recipients = sample(customers, 4)
+shuffle(customers1)
+recipients = sample(customers1, 4)
 
 print("coffee: {0}".format(recipients[0]))
 print("chicken: {0}".format(recipients[1:]))
