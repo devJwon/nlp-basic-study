@@ -9,16 +9,15 @@ def main() :
     user_input = del_aeiou(str(input("Enter any word : ")))
     print(user_input)
 
-element = ['a', 'e', 'i', 'o', 'u']
+element = 'aeiou'
 
 def del_aeiou(word) :
     new_word = []
     for char in word :
-        if char not in element :
+        if char.lower() not in element :
             new_word.append(char)
     return ''.join(new_word)
 
-            
 main()
 
         
