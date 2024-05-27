@@ -12,7 +12,7 @@ while True:
 
 
 # level = 3
-num = random.randint(1, level)
+num = random.randint(1, 100)
 # print(num)
 
 # if num < user_num:

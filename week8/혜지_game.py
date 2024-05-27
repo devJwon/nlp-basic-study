@@ -16,7 +16,7 @@ def main():
     level = get_positive_integer("Level: ")
 
     # Generate a random number between 1 and the level (inclusive)
-    number_to_guess = random.randint(1, level)
+    number_to_guess = random.randint(1, 100)
 
     while True:
         # Get the user's guess
