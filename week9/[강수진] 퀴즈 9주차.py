@@ -1,10 +1,9 @@
 class SoldOutError(Exception):
     pass
 
-
 chicken = 10
 waiting = 1
-while(True):
+while True:
     try:
         print("남은 치킨 : {0}".format(chicken))
         order = int(input("치킨 몇 마리 주문하시겠습니까?"))
@@ -19,6 +18,7 @@ while(True):
 
             if chicken == 0:
                 raise SoldOutError
+
     except ValueError:
         print("잘못된 값을 입력하였습니다.")
     except SoldOutError:

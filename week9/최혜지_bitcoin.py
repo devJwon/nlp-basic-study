@@ -4,6 +4,7 @@ import requests
 def bitcoin_price(quantity):
     try:
         response = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json").json()
+        print(response)
         price = response["bpi"]["USD"]["rate_float"]
         result = quantity * price
         return result

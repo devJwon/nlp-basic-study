@@ -1,4 +1,4 @@
-class SokdOutError(Exception):
+class SoldOutError(Exception):
     pass
  
 chicken = 10
