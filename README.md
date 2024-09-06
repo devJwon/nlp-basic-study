@@ -39,18 +39,16 @@
 ```
 NLP-기초-스터디/
 │
+├── week0/
+├── week1/
 ├── week2/
-│   ├── faces.py
-│   └── tip.py
-│
 ├── week3/
-│   └── extensions.py
-│
 ├── week4/
-│   └── meal.py
-│
+├── week5/
 ├── week6/
-│   └── plates.py
+├── week7/
+├── week9/
+├── week10/
 │
 └── README.md
 ```
